@@ -6,7 +6,7 @@
 
 .gamearea{
     border: solid black 5px;
-    background-color: burlywood;
+    background-color: #8D8AE5;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -16,10 +16,12 @@
 }
 
 .particle{
-    background-color: red;
+    background-image: url(../img/tiny_mario.png);
+    background-size: cover;
     height: 70px;
     position: absolute;
     right: 30px;
     bottom: 100px;
     width: 70px;
+    cursor: pointer;
 }

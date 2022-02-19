@@ -12,7 +12,14 @@
         <div id="box" class="particle"></div>
     </section>
     <script>
-        
+        document.getElementById("box").onmouseover = function(){
+            var posX=(Math.random())*100;
+            var posY=(Math.random())*100;
+            //alert("el valor de x es: "+posX+" y el valor de y es: "+posY);
+            document.getElementById("box").style.left=posX+"%";
+            document.getElementById("box").style.bottom=posY+"%";
+        }
+       /*
         document.getElementById("box").onclick = function(){
             var posX=(Math.random())*100;
             var posY=(Math.random())*100;
@@ -20,6 +27,7 @@
             document.getElementById("box").style.left=posX+"%";
             document.getElementById("box").style.bottom=posY+"%";
         }
+        */
     </script>
 </body>
 </html>
