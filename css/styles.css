@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.gamearea{
+    border: solid black 5px;
+    background-color: burlywood;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90vh;
+    position: relative;
+    width: 80vw;
+}
+
+.particle{
+    background-color: red;
+    height: 70px;
+    position: absolute;
+    right: 30px;
+    bottom: 100px;
+    width: 70px;
+}
